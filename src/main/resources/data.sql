@@ -1,0 +1,65 @@
+--
+--
+--INSERT INTO USERS (First_Name,
+--Second_Name,
+--LAST_NAME,
+--EMAIL,
+--USER_NAME,
+--PASSWORD,
+--DATE_ADD,
+--EDIT_BY)
+--VALUES('Tom',
+--'si',
+--'wq',
+--'qe',
+--'me',
+--'123s',
+--'2018',
+--'munif');
+--
+--INSERT INTO USERS (First_Name,
+--Second_Name,
+--LAST_NAME,
+--EMAIL,
+--USER_NAME,
+--PASSWORD,
+--DATE_ADD,
+--EDIT_BY)
+--VALUES('Ail','ahmed','otibi','qe@edu.com','meaqe','123sddd','2017','munif');
+--
+--INSERT INTO ROLES (ROLE_NAME) VALUES('admin');
+--INSERT INTO ROLES (ROLE_NAME) VALUES('user');
+--INSERT INTO ROLES (ROLE_NAME) VALUES('Organizer');
+--
+--
+--INSERT INTO USERROLE (ID_USER,ID_ROLE) VALUES (1,3);
+--INSERT INTO USERROLE (ID_USER,ID_ROLE) VALUES (2,3);
+--
+--
+--INSERT INTO XEVENT (
+--PLACE,
+--CITY,
+--DATEDAY,
+--TIMEV,
+--SEATNUM,
+--EDITBY,
+--DATEOFADD,
+--APPROVED
+--) VALUES
+--('ElmHQ',
+--'Riyadh',
+--'2019-10-24',
+--'03:00:00',
+--312,
+--'Bader',
+--'2018/10/8',
+--1
+--);
+--INSERT INTO XEVENT (
+--PLACE,CITY,DATEDAY,TIMEV,SEATNUM,EDITBY,DATEOFADD,APPROVED) VALUES
+--('ElmHQ','Jeedh','2017-10-24','03:00:00',500,'Bader','2018/10/8',1);
+--
+--
+--INSERT INTO TICKET  (IDUSER,IDEVENT) VALUES(1,1);
+--
+----INSERT INTO RATEX (REVIEW,USERID) VALUES('good',1);
